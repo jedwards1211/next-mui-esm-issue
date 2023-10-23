@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { Menu } from "@mui/material";
 import "./test.mjs";
 
+console.log();
 console.log("page.js", "Menu", Menu);
 
 export default function Home() {

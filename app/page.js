@@ -1,5 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+import { Menu } from "@mui/material";
+import "./test.mjs";
+
+console.log("page.js", "Menu", Menu);
 
 export default function Home() {
   return (
@@ -15,7 +19,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +95,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
